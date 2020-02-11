@@ -1,0 +1,1 @@
+javac C:\Users\dell\Galaxous\Lexer.java && java -cp .\Galaxous;. Lexer "%1"
