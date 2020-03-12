@@ -5,10 +5,10 @@ Galaxous is a programming language which is based on java. The code written in G
 
 ### Hello World program
 
-'''
+```
 create public class test
 main()
 print "Hello World"
 endm
 end
-'''
+```
