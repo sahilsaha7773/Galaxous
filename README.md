@@ -37,7 +37,7 @@ endm - This marks the end of the current method(here main method).
 
 end - This marks the end of the program.
 
-``` Note: In a galaxous code you must import the java.util package. This might be updated in the future.``
+``` Note: In a galaxous code you must import the java.util package. This might be updated in the future.```
 
 #### The pure java code for above program
 
