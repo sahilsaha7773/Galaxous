@@ -72,6 +72,11 @@ public class Lexer
                 result+="\nif("+lines[i].substring(3,lines[i].length())+"){";
                 ifBrace++;
             }
+            else if(init.equals("elif"))
+            {
+                result+="\n}else if("+lines[i].substring(5,lines[i].length())+"){";
+                ifBrace++;    
+            }
             else if(init.equals("else"))
             {
                 result+="\n}else{";
