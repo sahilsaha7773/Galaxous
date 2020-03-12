@@ -104,10 +104,11 @@ public class Lexer
     }
     
     public static void main(String args[]) throws Exception {
-        final String data = readFileAsString("C:\\Users\\dell\\"+args[0]+".jl");
+        
+        final String data = readFileAsString(args[0]+".ga");
         System.out.println(Lexer.cname);
-        final BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\dell\\"+args[0]+".java"));
-        final String filename = "C:\\Users\\dell\\"+args[0]+".java";
+        final BufferedWriter writer = new BufferedWriter(new FileWriter(args[0]+".java"));
+        final String filename = args[0]+".java";
         writer.write(lexer(data));
         writer.close();
         Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"javac " + filename + " && java "+filename+"\"");
