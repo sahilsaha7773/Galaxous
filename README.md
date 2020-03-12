@@ -23,7 +23,7 @@ println "Hello World"
 endm
 end
 ```
-#### Explanation of the above code
+### Explanation of the above code
 
 The first line imports the java.util package.
 
@@ -43,7 +43,7 @@ end - This marks the end of the program.
 Note: In a galaxous code you must import the java.util package. This might be updated in the future.
 ```
 
-#### The pure java code for above program
+### The pure java code for above program
 
 ```java
 import java.util.*;
