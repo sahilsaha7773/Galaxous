@@ -58,7 +58,7 @@ public class test {
 Note: The Scanner class line is included in the pure java code of every galaxous program to avoid input anomalies.
 ```
 
-## Running a Galaxous prgram in Windows
+## Running a Galaxous program in Windows
 
 - Clone the [Galaxous repo](https://github.com/sahilsaha7773/Galaxous) to your local computer.
 - Add the cloned Galaxous folder to the PATH environment variables.
