@@ -27,8 +27,20 @@ Hello Sahil
   ```
   Note: Always declare the variable inside the parenthesis of input statement.
   ```
-  
-  Created by Sahil Saha
+
+### The pure java code for the above program
+```java
+import java.util.*;
+  public class test {
+    public static void main(String args[]){
+      Scanner sc = new Scanner(System.in);
+      System.out.print("Enter your name:");
+      String name=sc.nextLine();
+      System.out.println( "\nHello "+name);
+  }
+}
+```
+Created by Sahil Saha
   
 <div id="disqus_thread"></div>
 <script>
