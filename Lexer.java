@@ -95,8 +95,12 @@ public class Lexer
             {
                 String temp[] = lines[i].substring(6,lines[i].length()-1).split(" ");
                 String dataType = temp[0];
-                if(dataType.equals("int"))
+                if(dataType.equals("int") )
                     result+="\n"+lines[i].substring(6,lines[i].length()-1)+"=sc.nextInt();";
+                else if(dataType.equals("String"))
+                    result+="\n"+lines[i].substring(6,lines[i].length()-1)+"=sc.nextLine();";
+                else if(dataType.equals("double"))
+                    result+="\n"+lines[i].substring(6,lines[i].length()-1)+"=sc.nextFloat();";
             }
             
             
