@@ -75,7 +75,7 @@ Note: Be sure that java jdk is installed on your machine.
   ```
   Note: Don't write the extension in the path.
   ```
-  
-  
+## Learn more
+- [Variables and if else in Galaxous](http://sahilsaha.me/Galaxous/If%20statements%20and%20variables%20in%20Galaxous)
                   
 Created by Sahil Saha
