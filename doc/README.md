@@ -3,13 +3,15 @@
 
 Galaxous is a programming language which is based on java. The code written in Galaxous is much simpler and is converted into pure java by the Galaxous lexer.
 
+![demo](/gademo.gif)
+
 ## Features
 
 - No semicolons
 - No braces
 - No complex lines like java to take input
 - **Want the pure java code?** Get it printed in your terminal
-- And much more...
+- And much more....
 
 ## Hello World program
 
@@ -21,7 +23,7 @@ println "Hello World"
 endm
 end
 ```
-#### Explanation of the above code
+### Explanation of the above code
 
 The first line imports the java.util package.
 
@@ -41,7 +43,7 @@ end - This marks the end of the program.
 Note: In a galaxous code you must import the java.util package. This might be updated in the future.
 ```
 
-#### The pure java code for above program
+### The pure java code for above program
 
 ```java
 import java.util.*;
@@ -56,7 +58,11 @@ public class test {
 Note: The Scanner class line is included in the pure java code of every galaxous program to avoid input anomalies.
 ```
 
-## Running a Galaxous prgram in Windows
+## Running a Galaxous program in Windows
+
+```
+Note: Be sure that java jdk is installed on your machine.
+```
 
 - Clone the [Galaxous repo](https://github.com/sahilsaha7773/Galaxous) to your local computer.
 - Add the cloned Galaxous folder to the PATH environment variables.
@@ -72,3 +78,4 @@ Note: The Scanner class line is included in the pure java code of every galaxous
   
   
                   
+Created by Sahil Saha
