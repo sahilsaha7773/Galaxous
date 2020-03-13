@@ -78,7 +78,8 @@ Note: Be sure that java jdk is installed on your machine.
 
 ## Learn more
 - [Variables and if else in Galaxous](http://sahilsaha.me/Galaxous/If%20statements%20and%20variables%20in%20Galaxous)
-                  
+- [Taking inputs in Galaxous](http://sahilsaha.me/Galaxous/Taking%20input%20in%20Galaxous)
+
 Created by Sahil Saha
 <div id="disqus_thread"></div>
 <script>
