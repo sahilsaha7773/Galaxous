@@ -60,6 +60,10 @@ Note: The Scanner class line is included in the pure java code of every galaxous
 
 ## Running a Galaxous program in Windows
 
+```
+Note: Be sure that java jdk is installed on your machine.
+```
+
 - Clone the [Galaxous repo](https://github.com/sahilsaha7773/Galaxous) to your local computer.
 - Add the cloned Galaxous folder to the PATH environment variables.
 - Write your galaxous code and save it with the extension ".ga".
