@@ -89,6 +89,8 @@ public class Lexer
             }
             else if(init.equals(""))
                 continue;
+            else if(init.equals("int") || init.equals("float") ||init.equals("String")||init.equals("char")||init.equals("double")||init.equals("short")||init.equals("byte"))
+                result+="\n"+lines[i]+";";
             else if(init.substring(0,5).equals("input"))
             {
                 String temp[] = lines[i].substring(6,lines[i].length()-1).split(" ");
