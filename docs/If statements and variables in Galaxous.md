@@ -58,7 +58,7 @@ This marks the end of the if else ladder.
 ### The pure java code for the above program
 ```java
 import java.util.*;
-public class ta {
+public class test {
  public static void main(String args[]) {
   Scanner sc = new Scanner(System.in);
   int a = 5;
